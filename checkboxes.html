@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>More Inputs</title>
+	</head>
+	<body>
+		<form action="/birds">
+			<input type="checkbox" name="agree_tos" id="agree" />
+			<label for="agree">I agree.</label>
+			<button>Submit</button>
+		</form>
+		<form action="/shirts">
+			<hr />
+			<h2>Radio Buttons</h2>
+			<label for="xs">XS: </label>
+			<input type="radio" name="size" id="xs" value="size_extra_small" />
+			<label for="s">S: </label>
+			<input type="radio" name="size" id="s" value="size_small" />
+			<label for="m">M: </label>
+			<input type="radio" name="size" id="m" value="size_medium" />
+			<label for="l">L: </label>
+			<input type="radio" name="size" id="l" value="size_large" />
+			<button>Submit</button>
+		</form>
+		<form action="/selection">
+			<hr />
+			<h2>Selections</h2>
+			<label for="meal">What Meal Would You Like?</label>
+			<select name="meal" id="meal">
+				<option value="vis" selected>Please Select an Option</option>
+				<option value="Mac'n'Cheese">Mac'n'Cheese</option>
+				<option value="Chicken">Chicken</option>
+				<option value="Ham">Ham</option>
+			</select>
+			<button>Submit</button>
+		</form>
+		<hr />
+		<h2>Textareas</h2>
+		<form action="/textareas">
+			<label for="textarea1">Heyy</label>
+			<br />
+			<textarea
+				name="textarea1"
+				id="textarea1"
+				cols="30"
+				rows="10"
+				placeholder="What do you think?"
+			></textarea>
+		</form>
+	</body>
+</html>

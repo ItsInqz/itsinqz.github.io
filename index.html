@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo Webpage</title>
+	</head>
+	<body>
+		<h1>Demo Webpage</h1>
+		<hr />
+		<nav>
+			<ul>
+				<li><a href="testpage.html">testpage1</a></li>
+				<li><a href="tablepage.html">tablepage</a></li>
+				<li><a href="formstest.html">formstest</a></li>
+				<li><a href="search.html">search</a></li>
+				<li><a href="checkboxes.html">checkboxes</a></li>
+				<li><a href="marathon.html">Marathon</a></li>
+			</ul>
+		</nav>
+
+		<hr />
+		<h2>Paragraph</h2>
+		<p>
+			Rooster or cock is a term for an adult male bird, and a younger male may
+			be called a cockerel. A male that has been castrated is a capon. An adult
+			female bird is called a hen and a sexually immature female is called a
+			pullet.
+		</p>
+
+		<h2>Text edits</h2>
+		<h5>(such as bold, italic...)</h5>
+		<p>Words can be made italic using the <em>em</em> tag.</p>
+		<p>Words can be made bold using the <b>b</b> tag.</p>
+		<h2>Lists</h2>
+		<p>
+			There are 2 different types of lists. Ordered lists and unordered lists.
+			Both lists accept items with the list item tag (li). Ordered lists use
+			numbers to order things while unordered lists use bullets. Lists can be
+			nested into other lists.
+		</p>
+		<h3>Lists Example</h3>
+		<h4>Unordered List</h4>
+		<ul>
+			<li>unordered list item one</li>
+			<li>unordered list item two</li>
+			<li>unordered list item three</li>
+			<li>unordered list item four</li>
+			<li>
+				<span>Example of a nested list.</span>
+				<ul>
+					<li>example one</li>
+					<li>example two</li>
+				</ul>
+			</li>
+		</ul>
+		<h4>Ordered List</h4>
+		<ol>
+			<li>unordered list item one</li>
+			<li>unordered list item two</li>
+			<li>unordered list item three</li>
+			<li>unordered list item four</li>
+		</ol>
+		<h2>Links with the anchor element.</h2>
+		<p>
+			Links are made with the anchor element. This element takes in the value
+			"href" which links it to a website.
+		</p>
+		<ul>
+			<li>
+				<a href="https://google.com">Google | Link to another website.</a>
+			</li>
+			<li>
+				<a href="about.html">About Page | Link to another file.</a>
+			</li>
+		</ul>
+		<h2>Images</h2>
+		<p>
+			Images don't have a closing tag when they are used (img). Images contain
+			the "src" attribute which tells it where to get the image from. Images
+			also contain the alt attribute (alt).
+		</p>
+		<ul>
+			<li>
+				<span>Local Image</span>
+				<br />
+				<img src="pictures/hey.png" alt="Logo picture." />
+			</li>
+			<li>
+				<span>Online Image</span>
+				<br />
+				<img
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hen_Comb.jpg/600px-Hen_Comb.jpg"
+					alt="Random Pic From Online"
+				/>
+			</li>
+		</ul>
+		<!-- Comments are made like this! They will not be rendered to the webpage. -->
+		<h2>Inline vs Block</h2>
+		<p>
+			Block elements take up the entire line. Inline elements can have other
+			elements in the same line as them.
+		</p>
+		<h2>Div and Span | Content Division Element / Span</h2>
+		<p>
+			Divs group content together so that you can style it uniformly. Spans are
+			used to wrap around smaller elements inside a division to format them
+			uniquely. Spans are INLINE.
+		</p>
+		<h2>Random Elements</h2>
+		<hr />
+		<ul>
+			<li>
+				<p>hr element. Horizontal Rule element. Creates a horizontal line.</p>
+			</li>
+			<li>
+				<p>
+					Break element. This element creates a line break whereevery you put it
+					(br).
+				</p>
+			</li>
+			<li>
+				<p>
+					Superscript and subscript (sup<sup>1</sup>, sub<sub>2</sub>). This can
+					be used to make fractions look better. <sup>1</sup> / <sub>2</sub>.
+					<sup>1</sup>/<sub>2</sub>.
+				</p>
+			</li>
+		</ul>
+		<h2>HTML entities</h2>
+		<p>
+			All HTML entities start with an ampersand and end with a semicolon. These
+			can be used to write reserved charactes. If i want to write 1 is less than
+			2, i would have to use an entity because it is used as the closing tag.
+			(&lt;, &gt;, &equals;, &amp;)
+		</p>
+		<h2>Semantic HTML</h2>
+		<p>
+			When writing code it is important to make your code readable and detailed.
+		</p>
+		<br />
+		<img src="pictures/canva1.png" alt="blob" width="800px" />
+
+		<h2>Tables</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Animal</th>
+					<th>Average Mass</th>
+					<th>Maximum Mass</th>
+					<th>Flighted</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Ostrich</td>
+					<td>104(230)</td>
+					<td>156.8(346</td>
+					<td>No</td>
+				</tr>
+
+				<tr>
+					<td>Somali Ostrich</td>
+					<td>90(200)</td>
+					<td>130(287)</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Wlid Turkey</td>
+					<td>13.5(29.8)</td>
+					<td>39(86)</td>
+					<td>Yes</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr />
+		<h2>Tables V2</h2>
+		<hr />
+		<table>
+			<thead>
+				<tr>
+					<th rowspan="2">Animal</th>
+					<th colspan="2">Average Mass</th>
+					<th rowspan="2">Flighted</th>
+				</tr>
+				<tr>
+					<th>KG</th>
+					<th>LB</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Ostrich</td>
+					<td>104</td>
+					<td>230</td>
+					<td>No</td>
+				</tr>
+
+				<tr>
+					<td>Somali Ostrich</td>
+					<td>90</td>
+					<td>200</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Wild Turkey</td>
+					<td>13.5</td>
+					<td>29.8</td>
+					<td>Yes</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr />
+		<h2>Forms</h2>
+		<hr />
+		<p>See <a href="formstest.html">Forms</a>.</p>
+	</body>
+</html>
